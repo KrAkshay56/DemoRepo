@@ -19,14 +19,14 @@ public class LoginTest {
 	@Test
 	public void login() throws Exception
 	{
-//		String browserName=System.getProperty("browser");
-//		String url=System.getProperty("url");
-//		String username=System.getProperty("username");
-//		String password=System.getProperty("password");	
-		String browserName="chrome";
-		String url="http://localhost:8888/";
-		String username="admin";
-		String password="root";	
+		String browserName=System.getProperty("browser");
+		String url=System.getProperty("url");
+		String username=System.getProperty("username");
+		String password=System.getProperty("password");	
+//		String browserName="chrome";
+//		String url="http://localhost:8888/";
+//		String username="admin";
+//		String password="root";	
 		WebDriver driver;
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
