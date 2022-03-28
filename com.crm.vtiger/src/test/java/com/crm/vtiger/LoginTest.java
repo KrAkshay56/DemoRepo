@@ -52,6 +52,18 @@ public class LoginTest {
 		act.moveToElement(logoutEle).perform();
 		driver.findElement(By.linkText("Sign Out")).click();
 		driver.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
